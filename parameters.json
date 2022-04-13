@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "de7a5aea-fdef-4136-bfc3-3bfe1901bfaf"
+        },
+        "name": {
+            "value": "GithubFunApp"
+        },
+        "location": {
+            "value": "Central US"
+        },
+        "hostingPlanName": {
+            "value": "ASP-AzureChallengeGitHubActionsRG-9379"
+        },
+        "serverFarmResourceGroup": {
+            "value": "AzureChallengeGitHubActionsRG"
+        },
+        "alwaysOn": {
+            "value": false
+        },
+        "storageAccountName": {
+            "value": "azurechallengegithu8c82"
+        },
+        "sku": {
+            "value": "Dynamic"
+        },
+        "skuCode": {
+            "value": "Y1"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "workerSizeId": {
+            "value": "0"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        },
+        "use32BitWorkerProcess": {
+            "value": true
+        },
+        "netFrameworkVersion": {
+            "value": "v6.0"
+        }
+    }
+}
